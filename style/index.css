@@ -1,0 +1,40 @@
+@import "/style/base.css";
+
+.home .main__heading {
+  font-size: 128px;
+  font-weight: 700;
+}
+.home .main__sub-heading {
+  font-size: 40px;
+  font-weight: 400;
+}
+
+@media (max-width: 1220px) {
+  .home .main__heading {
+    font-size: 70px;
+  }
+}
+@media (max-width: 700px) {
+  .home .main__heading {
+    font-size: 50px;
+  }
+  .home .main__sub-heading {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 590px) {
+  .home .main__heading {
+    font-size: 40px;
+  }
+  .home .main__sub-heading {
+    font-size: 24px;
+  }
+}
+
+.home .close path {
+  fill: var(--color-text-on-primary);
+}
+.home .menu path {
+  fill: var(--color-text-on-primary);
+}
